@@ -1,0 +1,33 @@
+.heading {
+  font-size: 3rem;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  padding: 2rem 3rem;
+  gap: 3rem;
+}
+.input {
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  border: 1px solid #cbcaca;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.border-color {
+  border-color: red;
+  background-color: rgb(255, 164, 164);
+}
+.btn {
+  background-color: rgb(109, 109, 240);
+  padding: 1rem 2rem;
+  border: none;
+  font-size: 2rem;
+  color: white;
+}
+
+.btn:hover {
+  background-color: blue;
+  cursor: pointer;
+}
